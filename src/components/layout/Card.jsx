@@ -1,8 +1,8 @@
-function Card({ title, description }) {
+function Card({ title, description, img }) {
   return (
     <div class="max-w-xs rounded-md shadow-md bg-gray-500 text-coolGray-100">
       <img
-        src="https://source.unsplash.com/random/300x300/?2"
+        src={img}
         alt=""
         class="object-cover object-center w-full rounded-t-md h-72 dark:bg-coolGray-500"
       />
@@ -15,11 +15,7 @@ function Card({ title, description }) {
           type="button"
           class="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md btn btn-outline"
         >
-          <button
-            type="button"
-            class="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md btn btn-outline"
-          ></button>
-          Read more
+          Dowiedz się więcej
         </button>
       </div>
     </div>

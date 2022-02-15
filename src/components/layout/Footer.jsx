@@ -5,17 +5,22 @@ function Footer() {
       <div>
         <img className="w-2/5" src={LogoWhite} />
         <div className="mx-4">
-          <p>ACME Industries Ltd.</p>
-          <p>Providing reliable tech since 1992</p>
+          <p>Scriptshare</p>
+          <p>Let's cooperate</p>
         </div>
       </div>
       <div className="footer px-24 gap-28">
         <div>
           <span class="footer-title">Services</span>
-          <a class="link link-hover">Branding</a>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
+          <a class="link link-hover">About</a>
+          <a class="link link-hover">Team</a>
+          <a class="link link-hover">Contact</a>
+        </div>
+        <div>
+          <span class="footer-title">Legal</span>
+          <a class="link link-hover">Copyrights</a>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Collaboration</a>
         </div>
         <div>
           <span className="footer-title">Social</span>
