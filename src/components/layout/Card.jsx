@@ -15,6 +15,10 @@ function Card({ title, description }) {
           type="button"
           class="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md btn btn-outline"
         >
+          <button
+            type="button"
+            class="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md btn btn-outline"
+          ></button>
           Read more
         </button>
       </div>
